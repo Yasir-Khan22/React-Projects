@@ -13,16 +13,16 @@ body {
 }
 
 .navbar {
-    border: 2px solid red;
+    width: 1280px;
+    max-width: 1280px;
+    margin: 5px 45px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1280px;
-    max-width: 1280px;
-    margin: 5px 43px;
+    height: 72px;
 
 }
 
