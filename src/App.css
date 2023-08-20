@@ -12,10 +12,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
+.container {
     width: 1280px;
     max-width: 1280px;
-    margin: 5px 45px;
+    margin: 0 auto;
+    border: 2px solid red;
+
 }
 
 nav {
@@ -52,10 +54,53 @@ nav ul {
     text-decoration: none;
 }
 
-nav button {
+nav button,
+.btn {
     all: unset;
     padding: 6px 16px;
     color: #fff;
     background: #D01C28;
     cursor: pointer;
 }
+
+.btn {
+    font-size: 24px;
+}
+
+.hero__btn {
+    display: flex;
+    gap: 40px;
+}
+
+.hero__btn .secondary__btn {
+    background: transparent;
+    font-size: 24px;
+    border: 1px solid black;
+    font-weight: 600;
+    color: gray;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+
+/*HERO SECTION */
+main {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+}
+
+.left .content__heading {
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+}
+
+.left .content__paragraph {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto;
+    color: gray;
+}
+
+
+.right {}

@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <div className="navbar">
+        <div className="container">
             <nav>
                 <div>
                     <img className="logo" src="./images/brand-logo.png" alt="" />
