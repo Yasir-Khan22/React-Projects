@@ -88,10 +88,16 @@ main {
     height: calc(100vh - 72px);
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
 .left .content__heading {
     font-size: 108px;
     font-weight: 800;
-    line-height: 102px;
+    line-height: 103px;
 }
 
 .left .content__paragraph {
@@ -99,10 +105,17 @@ main {
     font-weight: 600;
     line-height: auto;
     color: gray;
+    max-width: 400px;
 }
 
 .left .info {
-    border: 1px solid green;
+    font-size: 16px;
+}
+
+.left .brands__icon {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0px 0px 0px;
 }
 
 .right {}
