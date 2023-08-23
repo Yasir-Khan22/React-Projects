@@ -69,6 +69,7 @@ nav button,
 .hero__btn {
     display: flex;
     gap: 40px;
+    border: 1px solid red;
 }
 
 .hero__btn .secondary__btn {
@@ -81,6 +82,11 @@ nav button,
     cursor: pointer;
 }
 
+.left {
+    border: 2px solid green;
+}
+
+
 /*HERO SECTION */
 main {
     display: flex;
@@ -88,11 +94,6 @@ main {
     height: calc(100vh - 72px);
 }
 
-.left {
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-}
 
 .left .content__heading {
     font-size: 108px;
@@ -112,10 +113,10 @@ main {
     font-size: 16px;
 }
 
-.left .brands__icon {
+.left .brands__icons {
     display: flex;
     gap: 16px;
-    margin: 16px 0px 0px 0px;
+    border: 2px solid red;
 }
 
 .right {}

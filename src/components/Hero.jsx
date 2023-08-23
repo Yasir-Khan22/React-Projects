@@ -3,9 +3,7 @@ function HeroSection() {
         <main className="container">
             <section className="left">
                 <h1 className="content__heading">
-                    YOUR FEET
-                    DESERVE
-                    THE BEST
+                    YOUR FEET DESERVE THE BEST
                 </h1>
                 <p className="content__paragraph">
                     YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
