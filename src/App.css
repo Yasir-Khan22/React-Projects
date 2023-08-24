@@ -69,7 +69,6 @@ nav button,
 .hero__btn {
     display: flex;
     gap: 40px;
-    border: 1px solid red;
 }
 
 .hero__btn .secondary__btn {
@@ -82,9 +81,7 @@ nav button,
     cursor: pointer;
 }
 
-.left {
-    border: 2px solid green;
-}
+.left {}
 
 
 /*HERO SECTION */
@@ -116,7 +113,7 @@ main {
 .left .brands__icons {
     display: flex;
     gap: 16px;
-    border: 2px solid red;
+    margin: 36px 0px;
 }
 
 .right {}
