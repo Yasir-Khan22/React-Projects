@@ -1,6 +1,6 @@
 function HeroSection() {
     return (
-        <main className="container">
+        <main className="wrapper">
             <section className="left">
                 <h1 className="content__heading">
                     YOUR FEET DESERVE THE BEST
