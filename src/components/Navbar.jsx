@@ -11,7 +11,6 @@ function Navbar() {
                     <li><a href="#About">About</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
-
                 <button>Login</button>
             </nav>
         </div>
